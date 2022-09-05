@@ -5,7 +5,8 @@ Actually, it is not the entire left-half portion of the screen that is affected;
 The screen.sh file will fix this problem when it appears.
 Credit: ToneDef (https://www.virtualbox.org/ticket/16296#comment:8)
 ////////////////////////////////////////////////////////////////////
-earched for the offending process:
+
+searched for the offending process:
 
 $ ps aux | grep "VBoxClient --draganddrop" | grep "Sl"
 
