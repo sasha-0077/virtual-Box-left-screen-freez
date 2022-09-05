@@ -12,7 +12,7 @@ $ ps aux | grep "VBoxClient --draganddrop" | grep "Sl"
 
 and killed it; the mouse pointer left-clicking functionality immediately returned:
 
-$ kill -15 <the pid number>
+$ kill -15  (the pid number)
 
 or in one command:
 
